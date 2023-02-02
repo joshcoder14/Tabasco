@@ -1,0 +1,144 @@
+.hero_contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero_contact .contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.hero_contact .contact_container p {
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 160px;
+    /* or 80% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+.hero_contact .contact_info {
+    width: 100%;
+}
+
+.hero_contact .contact_info p {
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* or 100% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+.hero_contact .contact_info .address {
+    margin-top: 15px;
+}
+
+.entrance_section {
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.entrance_section .entrance_container {
+    width: 100%; 
+    display: flex;
+    flex-direction: column-reverse;  
+}
+
+.entrance_section .entrance_container .entrance_text {
+    margin-bottom: 41px;
+    padding: 0 100px;
+    width: 80%;
+    z-index: 2;
+}
+
+.entrance_section .entrance_container .mobile_entrance_text {
+    display: none;
+}
+
+.entrance_section .entrance_container .entrance_bg {
+    width: 100%;
+    padding: 0 29px;
+    margin-top: -70px;
+}
+
+.entrance_section .entrance_container .entrance_bg img {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .hero_contact {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero_contact .contact_container {
+        width: 100%;
+    }
+
+    .hero_contact .contact_container p {
+        font-size: 59px;
+        line-height: 70px;
+    }
+
+    .hero_contact .contact_container img {
+        width: 186px;
+height: 83px;
+    }
+
+    .entrance_section {
+        width: 100%;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+
+    .entrance_section .entrance_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .entrance_section .entrance_container .entrance_text {
+        display: none;
+    }
+
+    .entrance_section .entrance_container .mobile_entrance_text {
+        display: flex;
+        width: 335.95px;
+height: 191.27px;
+        padding: 0 20px;
+        z-index: 2;
+    }
+
+    .entrance_section .entrance_container .entrance_bg {
+        width: 100%;
+        padding: 0;
+        margin-top: -25px;    
+    }
+}

@@ -1,0 +1,40 @@
+
+
+.skeleton_text-title {
+    animation: skeleton-loading 1s linear infinite alternate;
+    border-radius: 2px;
+    width: 280px;
+    height: 30px;
+    border: none;
+}
+
+.skeleton_ribbon p {
+    animation: skeleton-loading 1s linear infinite alternate;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.skeleton_sub_text p{
+    animation: skeleton-loading 1s linear infinite alternate;
+    width: 30px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+.skeleton_item-bg {
+    animation: skeleton-loading 1s linear infinite alternate;
+    width: 100%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(204, 5%, 81%);
+    }
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+

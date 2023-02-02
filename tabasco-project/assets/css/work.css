@@ -1,0 +1,50 @@
+.hero_work {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero_work .work_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    margin: 200px 0;
+
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 160px;
+    /* or 80% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+@media (max-width: 991px) {
+    .hero_work {
+        width: 100%;
+    }
+
+    .hero_work .work_container {
+        width: 100%;
+        padding: 0 15px;
+        
+        font-size: 79px;
+        line-height: 70px;
+    }
+
+    .hero_work .work_container .hero_work_bg {
+        width: 288px;
+        height: 78px;
+    }
+}

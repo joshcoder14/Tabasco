@@ -1,0 +1,304 @@
+/* First Section */
+.hero_about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about_container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* padding: 0 10px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    max-width: 1706px;
+    max-height: 713px;
+}
+
+.about_text {
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 160px;
+    /* or 74% */
+
+    /* width: 1006px; */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+.about_text .agency {
+    width: 767.87px;
+    height: 163.06px;
+    margin-left: -200px;
+}
+
+.about_text .blck_text {
+    position: absolute;
+    width: 41%;
+    left: 840px;
+    top: 281px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Second Section */
+.conference {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+}
+
+.conference .conference_container {
+    width: 100%;
+    height: auto;
+
+    padding: 0 100px;
+
+    display: flex;
+    gap: 50px;
+}
+.conference .conference_container .left_bg {
+    width: 60%;
+}
+
+.conference .conference_container .text {
+    max-width: 417px;
+    text-align: justify;
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conference .conference_container .text p {
+    justify-items: end;
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* Third Section */
+.award_services {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    display: flex;
+}
+
+.award_services .container {
+    width: 100%;
+    height: auto;
+
+    padding: 0 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.award_services .container .award_services_text {
+    width: 50%;
+}
+
+.award_services .container .content {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    gap: 40px;
+}
+
+.award_services .container .content .content_text {
+    max-width: 490px;
+    text-align: justify;
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.award_services .container .content .content_text .first {
+    font-family: coreSans-bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.award_services .container .content .content_text .first img {
+    margin-right: -5px;
+    margin-bottom: -10px;
+}
+
+.award_services .container .content .content_text .second {
+    font-family: coreSans-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.award_services .container .content .bg {
+    width: 60%;
+}
+
+.office {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+.office .container {
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.office .container .office_text {
+    width: 50%;
+}
+
+.office .container .office_bg {
+    width: 100%;
+}
+
+
+@media (max-width: 1300px) {
+    .about_container {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .about_text .blck_text {
+        left: 670px;
+        top: 330px;  
+    }
+
+    /* .conference .conference_container {
+        width: 100%;
+        height: auto;
+
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column-reverse;
+
+    } */
+}
+
+@media (max-width: 991px) {
+
+    .hero_about {
+        width: 100%;
+    }
+
+    .about_container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about_text {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        font-size: 79px;
+        line-height: 70px;        
+    }
+
+    .about_text .agency {
+        width: 342.83px;
+        height: 72.8px;
+        margin-left: 0;
+    }
+
+    .about_text .blck_text {
+        
+        width: 300px;
+        height: 254px;
+        /* left: 10%;
+        top: -54px; */
+        left: 0;
+        right: 0;
+        top: -320px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .conference {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .conference .conference_container {
+        width: 100%;
+        height: auto;
+
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .conference .conference_container .left_bg {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .award_services {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .award_services .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .award_services .container .content {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .award_services .container .content .bg {
+        width: 100%;
+    }
+
+    .office {
+        margin: 50px 0;
+        width: 100%;
+    }
+
+    .office .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
